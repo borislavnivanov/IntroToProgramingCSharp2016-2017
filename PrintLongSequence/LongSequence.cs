@@ -11,11 +11,11 @@ class LongSequence
 {
     static void Main()
     {
-        for (int i = 2; i < 1002; i++)
+        for (short i = 2; i < 1002; i++)
         {
             if (i % 2 == 0)
             {
-                Console.WriteLine("{0}", i);
+                Console.WriteLine("{0}   {1}   {2}", i , i+1 , i);
             
             }
             else
@@ -25,3 +25,4 @@ class LongSequence
         }
     }
 }
+
